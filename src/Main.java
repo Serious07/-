@@ -5,5 +5,6 @@ public class Main {
         SalesManager salesManager = new SalesManager(sales);
 
         System.out.println("Максимально продано раз: " + salesManager.max());
+        System.out.println("Среднее значение: " + salesManager.getMiddleValueIgnoreHighestAndLowest());
     }
 }
